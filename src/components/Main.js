@@ -1,10 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-import pic01 from '../images/pic01.jpg'
-import pic02 from '../images/pic02.jpg'
-import pic03 from '../images/pic03.jpg'
-
 class Main extends React.Component {
   render() {
 
@@ -15,19 +11,16 @@ class Main extends React.Component {
 
         <article id="common" className={`${this.props.article === 'common' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Réglement Commun</h2>
-          <span className="image main"><img src={pic01} alt="" /></span>
           {close}
         </article>
 
         <article id="gaming" className={`${this.props.article === 'gaming' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Foxhub Gaming</h2>
-          <span className="image main"><img src={pic02} alt="" /></span>
           {close}
         </article>
 
         <article id="dev" className={`${this.props.article === 'dev' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Foxhub Dev</h2>
-          <span className="image main"><img src={pic03} alt="" /></span>
           {close}
         </article>
 
