@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-dimension-v2",
-  "description": "Gatsby Starter - Dimension V2",
+  "name": "Foxhub",
+  "description": "Foxhub",
   "version": "1.0.0",
-  "author": "Hunter Chang",
+  "author": "Logan Wilquin",
   "dependencies": {
     "gatsby": "^2.0.76",
     "gatsby-plugin-manifest": "^2.0.9",
@@ -27,8 +27,5 @@
   "devDependencies": {
     "prettier": "^1.14.2"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
-  }
+  "repository": {}
 }
